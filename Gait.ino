@@ -118,26 +118,26 @@ void gerakStatis(float x, float y, float z, int time_step, int delay_ms)
   transmitPulsa(delay_ms);
 }
 
-void menunduk() {
-  //kanan depan
-  Dynamixel.moveSpeed(0, deg2dyna(150), 200); // coxa
-  Dynamixel.moveSpeed(10, deg2dyna(150), 200); // femur
-  Dynamixel.moveSpeed(11, deg2dyna(150 - 15), 200); // tibia
-
-  //kiri depan
-  Dynamixel.moveSpeed(6, deg2dyna(150), 200); // coxa
-  Dynamixel.moveSpeed(7, deg2dyna(150), 200); // femur
-  Dynamixel.moveSpeed(8, deg2dyna(150 - 15), 200); // tibia
-
-  //kanan belakang
-
-  Dynamixel.moveSpeed(3, deg2dyna(150), 200);
-  Dynamixel.moveSpeed(4, deg2dyna(150), 200);
-  Dynamixel.moveSpeed(5, deg2dyna(150 + 30), 200);
-
-  //kiri belakang
-
-  Dynamixel.moveSpeed(9, deg2dyna(150), 200);
-  Dynamixel.moveSpeed(1, deg2dyna(150), 200);
-  Dynamixel.moveSpeed(211, deg2dyna(150 + 30), 200);
-}
+//void menunduk() {
+//  //kanan depan
+//  Dynamixel.moveSpeed(0, deg2dyna(150), 200); // coxa
+//  Dynamixel.moveSpeed(10, deg2dyna(150), 200); // femur
+//  Dynamixel.moveSpeed(11, deg2dyna(150 - 15), 200); // tibia
+//
+//  //kiri depan
+//  Dynamixel.moveSpeed(6, deg2dyna(150), 200); // coxa
+//  Dynamixel.moveSpeed(7, deg2dyna(150), 200); // femur
+//  Dynamixel.moveSpeed(8, deg2dyna(150 - 15), 200); // tibia
+//
+//  //kanan belakang
+//
+//  Dynamixel.moveSpeed(3, deg2dyna(150), 200);
+//  Dynamixel.moveSpeed(4, deg2dyna(150), 200);
+//  Dynamixel.moveSpeed(5, deg2dyna(150 + 30), 200);
+//
+//  //kiri belakang
+//
+//  Dynamixel.moveSpeed(9, deg2dyna(150), 200);
+//  Dynamixel.moveSpeed(1, deg2dyna(150), 200);
+//  Dynamixel.moveSpeed(211, deg2dyna(150 + 30), 200);
+//}
